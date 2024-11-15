@@ -6,4 +6,5 @@
 /cypress/videos
 /reports
 
+.idea
 .DS_Store
