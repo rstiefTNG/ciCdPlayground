@@ -12,7 +12,7 @@ describe('list', () => {
   
   it('shows content as paragraph if it is a string', () => {
     const {getByTestId} = render(List, {content: 'the line'})
-    
+    expect(true).toBeFalse();
     const p = getByTestId('singleContentParagraph')
     expect(p).toBeInTheDocument();
     expect(p).toHaveTextContent('the line');
